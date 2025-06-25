@@ -1,4 +1,4 @@
-import { Tabs } from 'expo-router';
+import { Stack, Tabs } from 'expo-router';
 import React from 'react';
 import { Platform } from 'react-native';
 
@@ -46,6 +46,14 @@ export default function TabLayout() {
           title: 'Sub Tab',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="ellipsis" color={color} />,
         }}/>
+
+        <Stack.Screen
+        name="taskhub"
+        options={{
+          title: "TaskMaster",
+          // Stack.Screen does not support tabBarIcon
+        }}
+      />
     </Tabs>
   );
 }
