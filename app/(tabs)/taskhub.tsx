@@ -15,7 +15,7 @@ export default function TaskMaster(): JSX.Element {
     { title: 'Complete project proposal', desc: 'Include budget estimates and timeline', priority: 'High Priority', due: 'Due today' },
     { title: 'Schedule team meeting', desc: 'Send calendar invites to all team members', priority: 'Medium Priority', due: 'Tomorrow' },
     { title: 'Buy groceries', desc: 'This weekend', priority: 'Low Priority' },
-    { title: 'Bug Fix', desc : 'Later', priority: 'High Priority', due: 'Next week' },
+    { title: 'Bug Fix', desc : 'Later', priority: 'High Priority', due: 'Today' },
   ];
 
   const completedTasks: Task[] = [
