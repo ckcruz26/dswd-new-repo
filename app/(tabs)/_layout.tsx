@@ -40,6 +40,12 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="sub_tab"
+        options={{
+          title: 'Sub Tab',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="ellipsis" color={color} />,
+        }}/>
     </Tabs>
   );
 }
